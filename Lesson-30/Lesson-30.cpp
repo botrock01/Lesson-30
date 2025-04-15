@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "Teacher.h"
+#include "Manager.h"
 
 int main()
 {
@@ -13,4 +14,8 @@ int main()
     Teacher Vladyslav("Vladyslav", 500.0, 5, 50);
     Vladyslav.showInfo();
     cout <<"Total: "<< Vladyslav.countSalary() << endl;
+    cout << "===============================================" << endl;
+    Manager Maksym("Maksym", 20000, 10, 100000);
+    Maksym.showInfo();
+    cout << "Total: " << Maksym.countSalary() << endl;
 }
